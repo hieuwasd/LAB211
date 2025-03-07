@@ -71,9 +71,9 @@ public class Worker {
                     messages.Messages.INVALID
             );
             if (workerbo.findWorker(id) != null) {
-                break;
-            } else {
                 System.out.println("Id existed");
+            } else {
+                break;
             }
         }
 
