@@ -14,7 +14,7 @@ import utils.Validate;
  */
 public class Worker {
 
-    protected int id;
+    private int id;
     private String name;
     private int salary;
     private int age;
