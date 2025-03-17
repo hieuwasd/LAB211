@@ -63,7 +63,9 @@ public class Main {
                     break;
                 case 4:
                     Map<String, Integer> report = studentbo.report();
-
+                    for (Map.Entry<String, Integer> entry : result.entrySet()) {
+                        System.out.println(entry.getKey() + "|" + (entry.getValue() - 1));
+                    }
                     break;
                 case 5:
                     return;
